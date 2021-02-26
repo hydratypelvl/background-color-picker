@@ -1,0 +1,27 @@
+mat-button-toggle {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  background-color: red;
+  height: 100%;
+}
+.color-picker{
+  height: 200px;
+  width: 200px;
+}
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
